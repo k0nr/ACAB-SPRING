@@ -1,0 +1,523 @@
+<style>
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* portrait mode warning */
+#warning-message { display: none; 
+background-color: black;
+color:white;
+font-size:30px;
+}
+
+@media only screen and (orientation:portrait){
+.outer { display:none; }
+#warning-message { display:block; }
+
+}
+
+@media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+
+    }
+    
+    
+    
+@font-face {
+    font-family: 'PxPlus IBM CGA';
+    src: url('PxPlus_IBM_CGA.woff2') format('woff2'),
+        url('PxPlus_IBM_CGA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* youtube */
+
+.video-wrap {
+    position: relative;
+    width: 70%;
+    top: 5%;
+    left: 15%;
+    padding-bottom: 15%;
+ 
+}
+
+.youtube-responsive-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.youtube-responsive-container iframe, 
+.youtube-responsive-container object, 
+.youtube-responsive-container embed {
+position:absolute;
+width:100%;
+height:100%;
+}
+
+    
+html {
+    cursor: url('images/egg.cur'), default;
+    overflow-x: hidden;
+}
+
+body {
+    cursor: url('images/egg.cur'), default;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(90deg, #713a0e, #ff2929, #ff862f, #f5ff2b, #c3ff61, #00ff2a, #38fcff, #765eff, #f33dff, #ff9bd1);
+    /*background-repeat: repeat;
+    background: url('images/bars.png');*/
+/*     background-color: #f68cff; */
+}
+    
+    
+.linx {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    height: auto;
+    padding-bottom: 15%;
+    height: 8%;
+}
+
+    .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    
+    .contact {
+        flex: 1;
+        border: 2px dashed green;
+        font-size: 18px;
+        background-color: #fff562;
+        text-align: center; 
+        height: 100%;
+        padding: 25px;
+    }
+        .contact:link {
+         color: #550086;
+         text-decoration: none;
+        }
+        
+        .contact:hover {
+            text-decoration: underline;
+        }
+        
+        .contact:visited {
+            
+        }
+
+        
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    bottom: 0;
+    background: url('images/fire.gif');
+    z-index: -1;
+}
+    
+.outer {
+    
+}
+
+.title {
+    font-family: 'PxPlus IBM CGA', mono;
+}
+
+.banner {
+        position: relative;
+        top: 1%;
+        width: 65%;
+        left: 17.5%;
+        padding-bottom: 1%;
+}
+
+.flexy {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: -8px;
+    width: 60%;
+    left: 20%;
+    top: 20%;
+    position: relative;
+    padding-bottom: 10%;
+    
+}
+
+
+    .flexy >* {
+        flex: 1 0 25%;
+        margin: 8px;
+    }
+
+
+    .item {
+            cursor: url('images/brite-egg.cur'), pointer;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 5px;
+            padding-right: 5px;
+            outline: dashed #ff29f5;
+            border: 5px dotted #ff9500;
+            position: relative;
+            background: rgba(248, 200, 255, 1);
+            font-size: 28px;
+            color: #302443;
+            text-align: center;
+/*            font-family: 'Pacifico', cursive;*/
+            font-family: 'PxPlus IBM CGA', mono;
+            text-decoration: none;
+            min-height: 3rem;
+    }
+
+        .item:visited {
+            color: #d9afdf;
+        }
+        
+        
+        
+        
+       
+        .introo {
+                text-align: center;
+        }
+            
+    
+        .one {
+            text-align: center;
+           
+        }
+
+               /* .one:visited {
+                    color: pink;
+                }
+                */
+                .one:hover:before {
+                    content: 'Gender Reveal Party';
+                    background: url('images/confetti-lite2.gif');
+                }
+                    
+                    .one:before {
+                        content: 'ONE';
+                    }
+                
+              
+              
+        .two {
+            text-align: center;
+            color: 
+        }
+                
+                .two:before {
+                    content: '2';
+                }
+                
+                    .two:hover:before {
+                    font-size: 20px;
+                    content: 'I Always Liked That Part of Church Where You Shake Hands With Strangers and say Peace';
+                                        background: url('images/confetti-lite2.gif');
+
+                    }
+                
+                .three:before {
+                    content: 'three';
+                }
+                
+                    .three:hover:before {
+                        content: 'how it feels to conquer a fear';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .four:before {
+                    content: 'FOUR';
+                }
+                
+                    .four:hover:before {
+                        content: 'echoes from 8th grade band';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                
+                .five:before {
+                    content: 'FIVE';
+                }
+                
+                    .five:hover:before {
+                        content: 'Tension';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                
+                .six:before {
+                    font-size: 60px;
+                    content: '⬣';
+                }
+                
+                    .six:hover:before {
+                        font-size: 28px;
+                        content: 'WRENCH OF ALE';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                
+                .seven:before {
+                    content: 'seven';
+                }
+                
+                    .seven:hover:before {
+                        font-size: 12px;
+                        content: 'a small village of midwesterners, conservation and animal control officers, animal experts, amateur photographers, cops,  and swans all gathered around the humboldt park lagoon to see if there was a 5 foot alligator in there, and weirdly, there was, but they’ve trapped it, and it’s long gone, and though i know logically that i could not have kept those authorities from taking the gator to a zoo, and though i know logically that the gator could not have stayed in the lagoon forever, i wish they had left it alone, i wish they had let it stay a neighborhood legend OR the humboldt park alligator OR My Favorite Kind of News';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                
+                .eight:before {
+                    content: 'eighttt';
+                }
+                
+                    .eight:hover:before {
+                        font-size: 20px;
+                        content: 'foundfootagefoundtext';
+                        background: url('images/confetti-lite2.gif');
+                    }
+            
+                .nine:before {
+                    content: '9';
+                }
+                
+                    .nine:hover:before {
+                        content: "this year's pride anthem";
+                        background: url('images/confetti-lite2.gif');
+                    }
+                
+                .ten:before {
+                    content: 'TEN';
+                }
+                    .ten:hover:before {
+                        content: 'Toy Story';
+                        background: url('images/confetti-lite2.gif');
+                    }
+           
+                .eleven:before {
+                    content: '11';
+                }
+                    .eleven:hover:before {
+                        content: 'Start Your Engines';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .fucktwelve:before {
+                    content: 'Fuck 12';
+                }
+                    .fucktwelve:hover:before {
+                        content: 'Note to Self';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+               .thirteen:before {
+                    font-size: 60px;
+                    content: '⬣';
+                }
+                
+                    .thirteen:hover:before {
+                        font-size: 28px;
+                        content: 'WRENCH OF ABBY';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .fourteen:before {
+                    content: '14';
+                }
+                
+                   .fourteen:hover:before {
+                        content: 'Eden';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .fifteen:before {
+                    content: 'XV';
+                }
+                
+                    .fifteen:hover:before {
+                        content: 'Choreographed by Summer. Filmed in an Empty Theatre.';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .sixteen:before {
+                    content: 'sixteen';
+                }
+                
+                    .sixteen:hover:before {
+                        content: 'Letter to Lanny';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .seventeen:before {
+                    content: '17';
+                }
+                
+                    .seventeen:hover:before {
+                        font-size: 12px;
+                        content: '20 of the Best Book Club Books From This Decade according to the website ‘Book Bub’, which sounds a lot like ‘Porn Hub’ which boasts 338 videos featuring the word “Librarian”';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .eighteen:before {
+                    content: 'Eighteen';
+                }
+                    .eighteen:hover:before {
+                        content: 'Stink';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .nineteen:before {
+                    content: '19';
+                }
+                    .nineteen:hover:before {
+                        content: "Pride's Hottest New Accessory";
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twenty:before {
+                    content: 'XX';
+                }
+                    .twenty:hover:before {
+                        content: 'Sappy Partner Play';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                    
+                .twentyone:before {
+                    font-size: 60px;
+                    content: '⬣';
+                    
+                }
+                
+                    .twentyone:hover:before {
+                        content: 'WRENCH OF CAT';
+                        font-size: 28px;
+                                                background: url('images/confetti-lite2.gif');
+
+                    }
+                
+                .twentytwo:before {
+                    content: 'twenty, too';
+                }
+                    .twentytwo:hover:before {
+                        font-size: 12px;
+                        content: 'In this moment, we must prioritize the pleasure of those Most impacted by oppression” Pleasure Activism: The Politics of Feeling Good adrienne marie brown: a book report on a book that I have seemingly had more time on my hands to get through than ever since covid-19 and feels all the more relevant as a queer Black nerodivergent woman struggling to find joy in living through the closest that we have come in my lifetime to dismantling a system that feels just as likely to kill me as to be abolished';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentythree:before {
+                    content: '23';
+                }
+                    .twentythree:hover:before {
+                        content: 'Anecdotes of the Deviant Children';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentyfour:before {
+                    content: '24';
+                }
+                    .twentyfour:hover:before {
+                        content: 'Paint That Dong';
+                    }
+                    
+                
+                    
+                .twentyfive:before {
+                    font-size: 60px;
+                    content: '⬣';
+                    
+                }
+                    .twentyfive:hover:before {
+                        content: 'WRENCH OF ANNIE';
+                        font-size: 28px;
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentysix:before {
+                    content: 'twentysix';
+                }
+                    .twentysix:hover:before {
+                        content: 'Misplaced Pride: The GREATEST HITS!';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentyseven:before {
+                    content: '27';
+                }
+                    .twentyseven:hover:before {
+                        font-size: 18px;
+                        content: 'Hi! We formed an informal tri-coastal gaysian Neo affinity group and this is what we made for you!';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentyeight:before {
+                    content: 'XXVIII';
+                }
+                
+                    .twentyeight:hover:before {
+                        content: 'Cancel Me, Daddy';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentynine:before {
+                    content: '29';
+                }
+                    .twentynine:hover:before {
+                        font-size: 18px;
+                        content: '30yo spermatozoon ISO ovum';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .thirty:before {
+                    content: 'THIRTY (& still frisky)';
+                }
+                    .thirty:hover:before {
+                        content: 'REAMED IN THE ASS';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .extra:before {
+                    content: 'XTRA SPECIAL BONUS PLAY';
+                }
+                
+                    .extra:hover:before {
+                        content: 'WOWIE ZOWIE WHAT A DEAL';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .outro:before {
+                    content: "GOODNITE (IT'S L8)";
+                }
+                    .outro:hover:before {
+                        content: 'TIL NEXT WEEK/YEAR';
+                    }
+           
+           
+           
+           
+        
+        
+
+
+
+</style>
+
