@@ -168,22 +168,22 @@ body {
 
 
     .flexy >* {
-        flex: 1 0 25%;
+        flex: 1 1 25%;
         margin: 8px;
     }
 
 
     .item {
             cursor: url('images/brite-egg.cur'), pointer;
-            padding-top: 1%;
-            padding-bottom: 1%;
-            padding-left: 5px;
-            padding-right: 5px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 2px;
+            padding-right: 2px;
             outline: dashed #ff29f5;
             border: 5px dotted #ff9500;
             position: relative;
             background: rgba(248, 200, 255, 1);
-            font-size: 24px;
+            font-size: 28px;
             color: #302443;
             text-align: center;
 /*            font-family: 'Pacifico', cursive;*/
@@ -195,6 +195,7 @@ body {
         .item:visited {
             color: #d9afdf;
         }
+        
         
         
         
@@ -339,11 +340,11 @@ body {
                     }
                     
                .thirteen:before {
-                    content: 'eightyone';
+                    content: '81';
                 }
                 
                     .thirteen:hover:before {
-                        font-size: 18px;
+                        font-size: 12px;
                         content: 'howdoistayinhisbrain';
                         background: url('images/confetti-lite2.gif');
                     }
@@ -353,7 +354,7 @@ body {
                 }
                 
                    .fourteen:hover:before {
-                                               font-size: 22px;
+                        font-size: 16px;
 
                         content: 'I SCREAM YOU SCREAM WE ALL SCREAM FOR JUSTICE!';
                         background: url('images/confetti-lite2.gif');
@@ -373,6 +374,7 @@ body {
                 }
                 
                     .sixteen:hover:before {
+                        font-size: 18px;
                         content: 'Zoom Meeting';
                         background: url('images/confetti-lite2.gif');
                     }
@@ -406,6 +408,7 @@ body {
                     content: '66';
                 }
                     .twenty:hover:before {
+                        font-size: 16px;
                         content: 'Nametagging';
                         background: url('images/confetti-lite2.gif');
                     }
@@ -441,7 +444,7 @@ body {
                     }
                     
                 .twentyfour:before {
-                    content: '92';
+                    content: '91';
                 }
                     .twentyfour:hover:before {
                         content: 'foundfootagefoundtext';
@@ -452,7 +455,7 @@ body {
                 
                     
                 .twentyfive:before {
-                    content: 'ninetythree';
+                    content: '92';
                     
                 }
                     .twentyfive:hover:before {
