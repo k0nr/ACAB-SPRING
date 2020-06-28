@@ -398,7 +398,7 @@ body {
                     content: '89';
                 }
                     .nineteen:hover:before {
-                        content: "Loud Things Without Sound";
+                        content: "Loud Things Without Sound [STROBE]";
                         background: url('images/confetti-lite2.gif');
                     }
                     
