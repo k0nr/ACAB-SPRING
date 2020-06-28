@@ -180,7 +180,7 @@ body {
             border: 5px dotted #ff9500;
             position: relative;
             background: rgba(248, 200, 255, 1);
-            font-size: 28px;
+            font-size: 24px;
             color: #302443;
             text-align: center;
 /*            font-family: 'Pacifico', cursive;*/
@@ -207,17 +207,15 @@ body {
            
         }
 
-               /* .one:visited {
-                    color: pink;
-                }
-                */
+           
                 .one:hover:before {
-                    content: 'Gender Reveal Party';
+                    font-size: 18px;
+                    content: 'The Infinite Menagerie Audio Tour';
                     background: url('images/confetti-lite2.gif');
                 }
                     
                     .one:before {
-                        content: 'ONE';
+                        content: '64';
                     }
                 
               
@@ -228,281 +226,279 @@ body {
         }
                 
                 .two:before {
-                    content: '2';
+
+                    content: '68';
                 }
                 
                     .two:hover:before {
-                    font-size: 20px;
-                    content: 'I Always Liked That Part of Church Where You Shake Hands With Strangers and say Peace';
+                    font-size: 16px;
+                    content: 'i am trying to communicate to you through choreography from the music video for M.I.A.’s “Galang”';
                                         background: url('images/confetti-lite2.gif');
 
                     }
                 
                 .three:before {
-                    content: 'three';
+                    content: 'seventy';
                 }
                 
                     .three:hover:before {
-                        content: 'how it feels to conquer a fear';
+                        content: 'DARYL';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .four:before {
-                    content: 'FOUR';
+                    content: 'SEVENTY 1';
                 }
                 
                     .four:hover:before {
-                        content: 'echoes from 8th grade band';
+                        content: 'Black Show';
                         background: url('images/confetti-lite2.gif');
                     }
                 
                 .five:before {
-                    content: 'FIVE';
+                    content: 'seventy SIX';
                 }
                 
                     .five:hover:before {
-                        content: 'Tension';
+                        font-size: 12px;
+                        content: '"at go! we will scream real loud with the lights real bright and our eyes shut tight and our hearts real full cause we gotta get it out even just for a moment just one tender moment, all of us, together"';
                         background: url('images/confetti-lite2.gif');
                     }
                 
                 .six:before {
-                    font-size: 60px;
-                    content: '⬣';
+                    content: '73';
                 }
                 
                     .six:hover:before {
-                        font-size: 28px;
-                        content: 'WRENCH OF ALE';
+                        font-size: 22px;
+                        content: 'To the Black Teenager ';
                         background: url('images/confetti-lite2.gif');
                     }
                 
                 .seven:before {
-                    content: 'seven';
+                    content: 'seven ty for';
                 }
                 
                     .seven:hover:before {
-                        font-size: 12px;
-                        content: 'a small village of midwesterners, conservation and animal control officers, animal experts, amateur photographers, cops,  and swans all gathered around the humboldt park lagoon to see if there was a 5 foot alligator in there, and weirdly, there was, but they’ve trapped it, and it’s long gone, and though i know logically that i could not have kept those authorities from taking the gator to a zoo, and though i know logically that the gator could not have stayed in the lagoon forever, i wish they had left it alone, i wish they had let it stay a neighborhood legend OR the humboldt park alligator OR My Favorite Kind of News';
+                        font-size: 18px;
+                        content: 'eating lasagna with garfield';
                         background: url('images/confetti-lite2.gif');
                     }
                 
                 .eight:before {
-                    content: 'eighttt';
+                    content: '7 D 5';
                 }
                 
                     .eight:hover:before {
                         font-size: 20px;
-                        content: 'foundfootagefoundtext';
+                        content: 'Black Dykes Talk About Buffy';
                         background: url('images/confetti-lite2.gif');
                     }
             
                 .nine:before {
-                    content: '9';
+                    content: '76';
                 }
                 
                     .nine:hover:before {
-                        content: "this year's pride anthem";
+                        font-size: 18px;
+                        content: "Our Relative Experience of Protesting";
                         background: url('images/confetti-lite2.gif');
                     }
                 
                 .ten:before {
-                    content: 'TEN';
+                    content: '11x7';
                 }
                     .ten:hover:before {
-                        content: 'Toy Story';
+                        content: 'Deja Play';
                         background: url('images/confetti-lite2.gif');
                     }
            
                 .eleven:before {
-                    content: '11';
+                    content: '11x7+1';
                 }
                     .eleven:hover:before {
-                        content: 'Start Your Engines';
+                        font-size: 18px;
+                        content: 'From The Mouths of Babes: June 2020';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .fucktwelve:before {
-                    content: 'Fuck 12';
+                    content: '80';
                 }
                     .fucktwelve:hover:before {
-                        content: 'Note to Self';
+                        content: 'next year, maybe';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                .thirteen:before {
-                    font-size: 60px;
-                    content: '⬣';
+                    content: 'eightyone';
                 }
                 
                     .thirteen:hover:before {
-                        font-size: 28px;
-                        content: 'WRENCH OF ABBY';
+                        font-size: 18px;
+                        content: 'howdoistayinhisbrain';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .fourteen:before {
-                    content: '14';
+                    content: '83';
                 }
                 
                    .fourteen:hover:before {
-                        content: 'Eden';
+                                               font-size: 22px;
+
+                        content: 'I SCREAM YOU SCREAM WE ALL SCREAM FOR JUSTICE!';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .fifteen:before {
-                    content: 'XV';
+                    content: 'eighty for';
                 }
                 
                     .fifteen:hover:before {
-                        content: 'Choreographed by Summer. Filmed in an Empty Theatre.';
+                        content: 'Am I Karen?';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .sixteen:before {
-                    content: 'sixteen';
+                    content: '85';
                 }
                 
                     .sixteen:hover:before {
-                        content: 'Letter to Lanny';
+                        content: 'Zoom Meeting';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .seventeen:before {
-                    content: '17';
+                    content: 'EIGHTY SIXXX';
                 }
                 
                     .seventeen:hover:before {
-                        font-size: 12px;
-                        content: '20 of the Best Book Club Books From This Decade according to the website ‘Book Bub’, which sounds a lot like ‘Porn Hub’ which boasts 338 videos featuring the word “Librarian”';
+                        content: 'the last scary thing';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .eighteen:before {
-                    content: 'Eighteen';
+                    content: 'when eighty was hungry (eighty ate)';
                 }
                     .eighteen:hover:before {
-                        content: 'Stink';
+                        content: 'On Having ADHD During a Pandemic';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .nineteen:before {
-                    content: '19';
+                    content: '89';
                 }
                     .nineteen:hover:before {
-                        content: "Pride's Hottest New Accessory";
+                        content: "Loud Things Without Sound";
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .twenty:before {
-                    content: 'XX';
+                    content: '66';
                 }
                     .twenty:hover:before {
-                        content: 'Sappy Partner Play';
+                        content: 'Nametagging';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                     
                 .twentyone:before {
-                    font-size: 60px;
-                    content: '⬣';
+                    content: '85';
                     
                 }
                 
                     .twentyone:hover:before {
-                        content: 'WRENCH OF CAT';
-                        font-size: 28px;
+                        content: 'Gethsemane: June 16 Speculative Fiction ';
+                        font-size: 22px;
                                                 background: url('images/confetti-lite2.gif');
 
                     }
                 
                 .twentytwo:before {
-                    content: 'twenty, too';
+                    content: 'ate dee seven';
                 }
                     .twentytwo:hover:before {
-                        font-size: 12px;
-                        content: 'In this moment, we must prioritize the pleasure of those Most impacted by oppression” Pleasure Activism: The Politics of Feeling Good adrienne marie brown: a book report on a book that I have seemingly had more time on my hands to get through than ever since covid-19 and feels all the more relevant as a queer Black nerodivergent woman struggling to find joy in living through the closest that we have come in my lifetime to dismantling a system that feels just as likely to kill me as to be abolished';
+                        font-size: 22px;
+                        content: 'Nametagging (The Police)';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .twentythree:before {
-                    content: '23';
+                    content: '90+6';
                 }
                     .twentythree:hover:before {
-                        content: 'Anecdotes of the Deviant Children';
+                        content: 'Note to Self';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .twentyfour:before {
-                    content: '24';
+                    content: '92';
                 }
                     .twentyfour:hover:before {
-                        content: 'Paint That Dong';
+                        content: 'foundfootagefoundtext';
+                                                font-size: 18px;
+
                     }
                     
                 
                     
                 .twentyfive:before {
-                    font-size: 60px;
-                    content: '⬣';
+                    content: 'ninetythree';
                     
                 }
                     .twentyfive:hover:before {
-                        content: 'WRENCH OF ANNIE';
+                        content: 'This year’s pride anthem';
                         font-size: 28px;
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .twentysix:before {
-                    content: 'twentysix';
+                    content: 'ninety-seven';
                 }
                     .twentysix:hover:before {
-                        content: 'Misplaced Pride: The GREATEST HITS!';
+                                                font-size: 12px;
+
+                        content: '“In this moment, we must prioritize the pleasure of those Most impacted by oppression” Pleasure Activism: The Politics of Feeling Good adrienne marie brown: a book report on a book that I have seemingly had more time on my hands to get through than ever since covid-19 and feels all the more relevant as a queer Black nerodivergent woman struggling to find joy in living through the closest that we have come in my lifetime to dismantling a system that feels just as likely to kill me as to be abolished"';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .twentyseven:before {
-                    content: '27';
+                    content: 'oh three!';
                 }
                     .twentyseven:hover:before {
                         font-size: 18px;
-                        content: 'Hi! We formed an informal tri-coastal gaysian Neo affinity group and this is what we made for you!';
+                        content: "I ALWAYS LIKED THE PART OF CHURCH WHERE YOU SHAKE THE HAND OF YOUR NEIGHBORS, INTRODUCE YOURSELF TO PEOPLE YOU DON'T KNOW AND WISH THEM PEACE";
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .twentyeight:before {
-                    content: 'XXVIII';
+                    content: '94';
                 }
                 
                     .twentyeight:hover:before {
-                        content: 'Cancel Me, Daddy';
+                        content: 'Toy Story';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .twentynine:before {
-                    content: '29';
+                    content: 'fifty';
                 }
                     .twentynine:hover:before {
                         font-size: 18px;
-                        content: '30yo spermatozoon ISO ovum';
+                        content: 'Echoes from 8th grade band';
                         background: url('images/confetti-lite2.gif');
                     }
                     
                 .thirty:before {
-                    content: 'THIRTY (& still frisky)';
+                    content: '98 (and still frisky)';
                 }
                     .thirty:hover:before {
-                        content: 'REAMED IN THE ASS';
+                        content: 'Paint that Dong';
                         background: url('images/confetti-lite2.gif');
                     }
                     
-                .extra:before {
-                    content: 'XTRA SPECIAL BONUS PLAY';
-                }
-                
-                    .extra:hover:before {
-                        content: 'WOWIE ZOWIE WHAT A DEAL';
-                        background: url('images/confetti-lite2.gif');
-                    }
+             
                     
                 .outro:before {
                     content: "GOODNITE (IT'S L8)";
